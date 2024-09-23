@@ -2,11 +2,16 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 
-# Formulas
+# Fonts
+cask "font-jetbrains-mono-nerd-font"
+
 # Infrastructure-as-Code
 brew "ansible"
 brew "ansible-lint"
 brew "opentofu"
+
+# Default Terminal Replacement
+cask "kitty"
 # CLI Tools
 brew "bat"
 brew "fd"
@@ -18,22 +23,37 @@ brew "tig"
 brew "tmux"
 brew "tree"
 brew "wget"
+
+# Programming Languages
 # Go
 brew "go"
+
+# Cloud
 # Hetzner
 brew "hcloud"
+
 # Local Kubernetes / Container Setup
 brew "kubernetes-cli"
 brew "ubuntu/microk8s/microk8s"
 brew "podman"
 
-# Casks
-# Fonts
-cask "font-jetbrains-mono-nerd-font"
-# Default Terminal Replacement
-cask "kitty"
+# VPNs
+# Homeserver / Private Cloud
+brew "tailscale"
+# University
+cask "tunnelblick"
+
+# Discord
+cask "discord"
+
+# Password Manager
+cask "bitwarden"
+
 # Local LLMs
 cask "ollama"
+
+# Note Taking
+cask "obsidian"
 
 # Visual Studio Code
 cask "visual-studio-code"

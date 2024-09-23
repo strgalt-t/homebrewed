@@ -1,2 +1,3 @@
-# homebrewed
-Homebrew configuration
+# 💻 homebrewed
+
+Homebrew configuration for my local dev environment.

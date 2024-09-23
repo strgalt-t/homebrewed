@@ -28,10 +28,15 @@ brew "ubuntu/microk8s/microk8s"
 brew "podman"
 
 # Casks
+# Fonts
 cask "font-jetbrains-mono-nerd-font"
+# Default Terminal Replacement
 cask "kitty"
-cask "visual-studio-code"
+# Local LLMs
+cask "ollama"
 
+# Visual Studio Code
+cask "visual-studio-code"
 # Virtual Studio Code extensions
 vscode "catppuccin.catppuccin-vsc"
 vscode "golang.go"

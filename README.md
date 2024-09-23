@@ -1,0 +1,2 @@
+# homebrewed
+Homebrew configuration

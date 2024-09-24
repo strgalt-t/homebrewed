@@ -42,9 +42,14 @@ brew "podman"
 brew "tailscale"
 # University
 cask "tunnelblick"
+# Commercial VPN
+cask "protonvpn"
 
+# Messaging
 # Discord
 cask "discord"
+# Signal
+cask "signal"
 
 # Password Manager
 cask "bitwarden"
@@ -54,6 +59,13 @@ cask "ollama"
 
 # Note Taking
 cask "obsidian"
+
+# Online lectures
+cask "zoom"
+
+# Browsers
+cask "firefox"
+cask "google-chrome"
 
 # Visual Studio Code
 cask "visual-studio-code"

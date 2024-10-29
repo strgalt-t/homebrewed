@@ -10,6 +10,9 @@ brew "ansible"
 brew "ansible-lint"
 brew "opentofu"
 
+# SSH Key Management
+cask "secretive"
+
 # Default Terminal Replacement
 cask "kitty"
 # CLI Tools

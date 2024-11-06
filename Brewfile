@@ -17,6 +17,7 @@ cask "secretive"
 cask "kitty"
 # CLI Tools
 brew "bat"
+brew "broot"
 brew "fd"
 brew "htop"
 brew "ncdu"

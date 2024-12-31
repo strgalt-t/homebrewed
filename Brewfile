@@ -39,8 +39,6 @@ brew "podman"
 brew "minikube"
 
 # VPNs
-# Homeserver / Private Cloud
-brew "tailscale"
 # University
 cask "tunnelblick"
 # Wireguard

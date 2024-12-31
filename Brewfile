@@ -1,9 +1,5 @@
 # Taps
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
-
-# Fonts
-cask "font-jetbrains-mono-nerd-font"
 
 # Infrastructure-as-Code
 brew "ansible"
@@ -14,7 +10,7 @@ brew "opentofu"
 cask "secretive"
 
 # Default Terminal Replacement
-cask "kitty"
+cask "ghostty"
 # CLI Tools
 brew "bat"
 brew "broot"
@@ -38,16 +34,18 @@ brew "hcloud"
 
 # Local Kubernetes / Container Setup
 brew "kubernetes-cli"
-brew "ubuntu/microk8s/microk8s"
+cask "docker"
 brew "podman"
+brew "minikube"
 
 # VPNs
 # Homeserver / Private Cloud
 brew "tailscale"
 # University
 cask "tunnelblick"
-# Commercial VPN
-cask "protonvpn"
+# Wireguard
+brew "wireguard-go"
+brew "wireguard-tools"
 
 # Messaging
 # Discord

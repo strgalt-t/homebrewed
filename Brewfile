@@ -12,13 +12,11 @@ cask "secretive"
 # Default Terminal Replacement
 cask "ghostty"
 # CLI Tools
-brew "bat"
 brew "broot"
 brew "fd"
 brew "htop"
 brew "ncdu"
 brew "macchina"
-brew "ripgrep"
 brew "tig"
 brew "tmux"
 brew "tree"
@@ -27,6 +25,8 @@ brew "wget"
 # Programming Languages
 # Go
 brew "go"
+# Rust
+brew "rustup"
 
 # Cloud
 # Hetzner
@@ -67,18 +67,5 @@ cask "zoom"
 cask "firefox"
 cask "google-chrome"
 
-# Visual Studio Code
+# Zed
 cask "visual-studio-code"
-# Virtual Studio Code extensions
-vscode "catppuccin.catppuccin-vsc"
-vscode "golang.go"
-vscode "hashicorp.hcl"
-vscode "hashicorp.terraform"
-vscode "ms-python.python"
-vscode "ms-vscode-remote.remote-ssh"
-vscode "ms-vscode-remote.remote-ssh-edit"
-vscode "ms-vscode-remote.vscode-remote-extensionpack"
-vscode "ms-vscode.remote-explorer"
-vscode "ms-vscode.remote-server"
-vscode "redhat.ansible"
-vscode "redhat.vscode-yaml"

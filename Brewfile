@@ -68,4 +68,7 @@ cask "firefox"
 cask "google-chrome"
 
 # Zed
-cask "visual-studio-code"
+cask "zed"
+
+# University research
+cask "zotero"

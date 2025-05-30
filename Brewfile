@@ -70,5 +70,6 @@ cask "google-chrome"
 # Zed
 cask "zed"
 
-# University research
+# University
+cask "mactex"
 cask "zotero"
